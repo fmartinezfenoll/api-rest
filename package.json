@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/fmartinezfenoll/api-rest/issues"
   },
-  "homepage": "https://github.com/fmartinezfenoll/api-rest#readme"
+  "homepage": "https://github.com/fmartinezfenoll/api-rest#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
