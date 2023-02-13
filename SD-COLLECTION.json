@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "40e98850-7c97-4610-8a6f-68cb4a876c2c",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25697518"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/api/producto/asdasd",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "mi producto",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"description": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "miFoto.png",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "general",
+							"description": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/producto/asdasd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"producto",
+						"asdasd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/producto",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "mi producto",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"description": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "miFoto.png",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "general",
+							"description": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/producto",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"producto"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/producto/asdasd",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "mi producto",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"description": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "miFoto.png",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "general",
+							"description": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/producto/asdasd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"producto",
+						"asdasd"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/producto/asdasd",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "mi producto",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"description": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "miFoto.png",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "general",
+							"description": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/producto/asdasd",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"producto",
+						"asdasd"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
