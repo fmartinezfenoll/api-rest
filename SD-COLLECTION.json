@@ -1,13 +1,13 @@
 {
 	"info": {
-		"_postman_id": "40e98850-7c97-4610-8a6f-68cb4a876c2c",
-		"name": "New Collection",
+		"_postman_id": "517e259e-362c-4313-81df-a88564af30d4",
+		"name": "SD-03",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "25697518"
 	},
 	"item": [
 		{
-			"name": "http://localhost:3000/api/producto/asdasd",
+			"name": "http://localhost:3000/api/familia",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -42,7 +42,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/producto/asdasd",
+					"raw": "http://localhost:3000/api/familia",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -50,110 +50,14 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"producto",
-						"asdasd"
+						"familia"
 					]
 				}
 			},
 			"response": []
 		},
 		{
-			"name": "http://localhost:3000/api/producto",
-			"request": {
-				"method": "POST",
-				"header": [],
-				"body": {
-					"mode": "urlencoded",
-					"urlencoded": [
-						{
-							"key": "name",
-							"value": "mi producto",
-							"type": "text"
-						},
-						{
-							"key": "price",
-							"value": "200",
-							"description": "2",
-							"type": "text"
-						},
-						{
-							"key": "photo",
-							"value": "miFoto.png",
-							"type": "text"
-						},
-						{
-							"key": "category",
-							"value": "general",
-							"description": "4",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "http://localhost:3000/api/producto",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"api",
-						"producto"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://localhost:3000/api/producto/asdasd",
-			"request": {
-				"method": "PUT",
-				"header": [],
-				"body": {
-					"mode": "urlencoded",
-					"urlencoded": [
-						{
-							"key": "name",
-							"value": "mi producto",
-							"type": "text"
-						},
-						{
-							"key": "price",
-							"value": "200",
-							"description": "2",
-							"type": "text"
-						},
-						{
-							"key": "photo",
-							"value": "miFoto.png",
-							"type": "text"
-						},
-						{
-							"key": "category",
-							"value": "general",
-							"description": "4",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "http://localhost:3000/api/producto/asdasd",
-					"protocol": "http",
-					"host": [
-						"localhost"
-					],
-					"port": "3000",
-					"path": [
-						"api",
-						"producto",
-						"asdasd"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "http://localhost:3000/api/producto/asdasd",
+			"name": "http://localhost:3000/api/familia/63f381356d4e0332b1a22483",
 			"request": {
 				"method": "DELETE",
 				"header": [],
@@ -185,7 +89,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://localhost:3000/api/producto/asdasd",
+					"raw": "http://localhost:3000/api/familia/63f381356d4e0332b1a22483",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -193,8 +97,413 @@
 					"port": "3000",
 					"path": [
 						"api",
-						"producto",
-						"asdasd"
+						"familia",
+						"63f381356d4e0332b1a22483"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/familia/63f381356d4e0332b1a22483",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "mi producto",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"description": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "miFoto.png",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "general",
+							"description": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/familia/63f381356d4e0332b1a22483",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"familia",
+						"63f381356d4e0332b1a22483"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/familia",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "mi producto",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"description": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "miFoto.png",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "general",
+							"description": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/familia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"familia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/mascotas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Woof",
+							"type": "text"
+						},
+						{
+							"key": "raza",
+							"value": "gato",
+							"type": "text"
+						},
+						{
+							"key": "color",
+							"value": "Gris",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/mascotas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"mascotas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/mascotas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Woof",
+							"type": "text"
+						},
+						{
+							"key": "raza",
+							"value": "gato",
+							"type": "text"
+						},
+						{
+							"key": "color",
+							"value": "Gris",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/mascotas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"mascotas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/mascotas/63f386256d4e0332b1a22488",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Woof",
+							"type": "text"
+						},
+						{
+							"key": "raza",
+							"value": "gato",
+							"type": "text"
+						},
+						{
+							"key": "color",
+							"value": "Gris",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/mascotas/63f386256d4e0332b1a22488",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"mascotas",
+						"63f386256d4e0332b1a22488"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/mascotas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Woof",
+							"type": "text"
+						},
+						{
+							"key": "raza",
+							"value": "Perro",
+							"type": "text"
+						},
+						{
+							"key": "color",
+							"value": "Blanco",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/mascotas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"mascotas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/mascotas",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nombre",
+							"value": "Palito",
+							"type": "text"
+						},
+						{
+							"key": "raza",
+							"value": "Castor",
+							"type": "text"
+						},
+						{
+							"key": "color",
+							"value": "marron",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/mascotas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"mascotas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/mascotas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "mi producto",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"description": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "miFoto.png",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "general",
+							"description": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/mascotas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"mascotas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3000/api/familia",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "name",
+							"value": "mi producto",
+							"type": "text"
+						},
+						{
+							"key": "price",
+							"value": "200",
+							"description": "2",
+							"type": "text"
+						},
+						{
+							"key": "photo",
+							"value": "miFoto.png",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "general",
+							"description": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/familia",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"familia"
 					]
 				}
 			},
